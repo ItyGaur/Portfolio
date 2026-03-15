@@ -1,0 +1,143 @@
+body{
+margin:0;
+font-family:Poppins;
+background:#0f172a;
+color:white;
+overflow-x:hidden;
+}
+
+#particles-js{
+position:fixed;
+width:100%;
+height:100%;
+z-index:-1;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#020617;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.logo{
+color:#facc15;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:140px 8%;
+gap:60px;
+flex-wrap:wrap;
+}
+.hero-text{
+max-width:520px;
+}
+
+.hero h2{
+font-size:50px;
+color:#facc15;
+}
+
+.hero-img img{
+width:420px;
+max-width:100%;
+border-radius:20px;
+box-shadow:0 0 35px rgba(255,255,0,0.25);
+}
+
+button{
+padding:12px 25px;
+background:#facc15;
+border:none;
+cursor:pointer;
+}
+
+.skills{
+padding:80px 8%;
+text-align:center;
+}
+
+.skill{
+width:60%;
+margin:auto;
+}
+
+.bar{
+background:#1e293b;
+height:8px;
+border-radius:5px;
+margin-bottom:25px;
+}
+
+.bar div{
+height:8px;
+border-radius:5px;
+background:#facc15;
+}
+
+.html{width:90%}
+.css{width:85%}
+.js{width:75%}
+.dsa{width:70%}
+
+.projects{
+padding:80px 8%;
+text-align:center;
+}
+
+.project-grid{
+display:flex;
+gap:40px;
+justify-content:center;
+margin-top:40px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+width:250px;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(255,255,0,0.3);
+}
+
+.contact{
+text-align:center;
+padding:80px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+section{
+padding:80px 8%;
+max-width:1200px;
+margin:auto;
+scroll-margin-top: 100px;
+}
